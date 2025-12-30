@@ -1,5 +1,6 @@
 # Plant_Species_Identification
 🌱 Plant Species Identification using CNN & VGG16
+
 📌 Project Overview
 
 Plant Species Identification is a machine learning–based application that identifies plant species from an image and provides detailed information about the plant. The system uses Convolutional Neural Networks (CNN) with a VGG16 pre-trained model to classify plant images and display useful details such as common name, scientific name, water requirements, environmental conditions, and uses.
