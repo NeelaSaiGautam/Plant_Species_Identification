@@ -1,13 +1,13 @@
 # Plant_Species_Identification
-🌱 Plant Species Identification using CNN & VGG16
+🌱 **Plant Species Identification using CNN & VGG16**
 
-📌 Project Overview
+📌 **Project Overview**
 
 Plant Species Identification is a machine learning–based application that identifies plant species from an image and provides detailed information about the plant. The system uses Convolutional Neural Networks (CNN) with a VGG16 pre-trained model to classify plant images and display useful details such as common name, scientific name, water requirements, environmental conditions, and uses.
 
 This application is helpful for gardening enthusiasts, botany students, and medical students who want quick and reliable plant information.
 
-🎯 Problem Statement
+🎯 **Problem Statement**
 
 Many people are interested in growing plants but lack knowledge about:
 
@@ -19,7 +19,7 @@ Uses and environmental conditions
 
 Existing applications mainly identify plant names but do not provide complete information about the plant.
 
-💡 Proposed Solution
+💡 **Proposed Solution**
 
 User uploads a plant image
 
@@ -31,7 +31,7 @@ Related plant information is fetched from a CSV dataset
 
 Results are displayed through a Streamlit web interface
 
-🛠️ Tech Stack
+🛠️ **Tech Stack**
 
 Programming Language: Python 3.10
 
@@ -45,7 +45,7 @@ IDE: PyCharm
 
 Dataset Source: Kaggle (99 plant species)
 
-🧠 System Architecture
+🧠 **System Architecture**
 
 User uploads plant image
 
@@ -59,7 +59,7 @@ Plant details fetched from CSV file
 
 Results displayed on web UI
 
-✨ Features
+✨ **Features**
 
 Image-based plant identification
 
@@ -81,7 +81,7 @@ User-friendly web interface
 
 Supports 99 plant species
 
-⚙️ Software Requirements
+⚙️ **Software Requirements**
 
 Python 3.10
 
@@ -101,7 +101,7 @@ keras
 streamlit
 pillow
 
-💻 Hardware Requirements
+💻 **Hardware Requirements**
 
 Processor: 64-bit, Quad Core (2.5 GHz minimum)
 
@@ -111,7 +111,7 @@ Storage: 64 GB
 
 OS: Windows 10
 
-🚀 How to Run the Project
+🚀 **How to Run the Project**
 
 Clone the repository
 
@@ -130,7 +130,7 @@ streamlit run app.py
 
 Upload a plant image and click Predict
 
-📊 Results
+📊 **Results**
 
 Successfully identifies plant species from images
 
@@ -140,7 +140,7 @@ Tested with multiple plant images
 
 Achieved good accuracy using CNN + VGG16
 
-🧪 Testing
+🧪 **Testing**
 
 Multiple test cases executed with different plant images
 
@@ -148,7 +148,7 @@ All test cases passed successfully
 
 Verified both prediction accuracy and UI output
 
-🔮 Future Enhancements
+🔮 **Future Enhancements**
 
 Increase dataset size to improve accuracy
 
@@ -157,5 +157,13 @@ Support more plant species
 Deploy as a mobile application
 
 Improve UI/UX
+
+📚 **References**
+
+Kaggle Plant Dataset
+
+CNN & VGG16 tutorials (YouTube)
+
+GeeksforGeeks (CSV handling)
 
 Add multilingual support
